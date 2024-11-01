@@ -1,0 +1,246 @@
+/**
+*   twitcher plugin style
+**/
+
+.use {
+    padding-top: 3px;
+}
+
+#map_canvas {
+    clear: both;
+}
+
+.latlng_container, .post_options_container {
+    width: 23%;
+    height: 74px;
+    float: left;
+    border: 1px dashed gray;
+    margin: 0 15px 8px 0;
+    padding: 5px;
+}
+
+.latlng_container h4, .post_options_container h4 {
+    margin: 0 0 10px 0;
+}
+
+.latlng_container span {
+    margin-left: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.latlng_container .button {
+    float: right;
+}
+
+#twitcher-status .message {
+   float: left;
+   padding-top: 17px;
+   font-weight: bold;
+}
+
+#twitcher_loader {
+   position: absolute;
+   top: 37px;
+   right: 7px;
+}
+#twitcher_advanced {
+    float:left;
+    clear: both;
+    margin-bottom: 8px;
+}
+
+#twitcher_advanced .advanced{
+    display:none;
+}
+
+/* twitcher settings page style
+*/
+
+#twitcher_map_settings td:first-child {
+    text-align: right;
+}
+
+#status_success {
+    background-color: #90ee90;
+    padding: 5px;
+    width: 90%;
+    color: #000000;
+}
+
+#status_fail {
+    background-color: #ff9999;
+    padding: 5px;
+    width: 90%;
+    color: #000000;
+}
+
+#donate_container {
+    float: right;
+    width: 200px;
+}
+
+th.cats_header {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+	font-weight: normal;
+	font-size: 12px;
+	}
+	
+	
+select#twitcher_categories{
+		font-weight: normal;
+	font-size: 12px;
+	}
+
+table#contributor_categories{
+		font-weight: normal;
+	font-size: 12px;
+}
+	
+div.tables_container {
+    overflow: auto;
+    border: 2px dashed #CCC;
+    width: 50%;
+    padding: 10px;
+}
+
+table#available_categories {
+    float: left;
+}
+
+table#contributor_categories tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+/* twitcher contribute form
+*/
+#twitcher_message {
+    background-color: #ffffe0;
+    border-color: #E6DB55;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 .6em;
+    margin-bottom: 30px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#twitcher_message p {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    padding-left: 25px;
+}
+
+#twitcher_message p.success {
+    background-image: url("images/success.png");
+}
+
+#twitcher_message p.error {
+    background-image: url("images/error.png");
+}
+
+#twitcher_form_table {
+    border: none !important;
+    width: auto !important;
+    margin-bottom: 0 !important;
+}
+
+#twitcher_form_table tr td {
+    vertical-align: top;
+    border: none !important;
+    padding: 0 10px 0 0 !important;
+}
+
+#twitcher_form_table tr td label {
+    float: right;
+}
+
+#twitcher_form_table td.marker{
+    font-size: 10px;
+}
+
+p.info {
+    background-image: url("images/info.png");
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    padding-left: 25px;
+    margin: 0;
+}
+
+/* twitcher big map
+*/
+
+.twitcher_contributor_panel {
+    background: #666;
+    padding:2px;
+    padding: 4px 12px;
+}
+.twitcher_contributor_panel a,
+.twitcher_contributor_panel a:visited {
+    color: #ccc;
+}
+
+.contributor_form {
+    overflow: auto;
+}
+.contributor_form p {
+    margin: 0 !important;
+}
+.contributor_form label {
+    display: block;
+}
+.contributor_form input {
+    margin-bottom: 5px;
+}
+.contributor_form input[type=text] {
+    width: 92%;
+}
+.contributor_form textarea {
+    width: 92%;
+    resize: none;
+    vertical-align: text-top;
+}
+.contributor_form input[type=submit] {
+    float: right;
+    margin-right: 20px;
+}
+
+.sight_info p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.sight_info img.attachment-post-thumbnail {
+    max-width: 300px;
+}
+
+/* Datepicker style */
+#ui-datepicker-div {
+    padding: 6px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+.ui-datepicker-calendar {
+    margin: 0;
+}
+.ui-datepicker-calendar a:hover {
+    color: #000000;
+}
+.ui-datepicker-header {
+    background: #ffffff;
+}
+.ui-datepicker-div {
+    border: 1px solid #cccccc;
+}
+.ui-datepicker-next {
+    float: right;
+}
+.ui-datepicker-title {
+    font-weight: bold;
+}
+.ui-datepicker-month,
+.ui-datepicker-year {
+    color: #555555;
+}
